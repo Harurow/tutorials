@@ -1,0 +1,8 @@
+{
+  "root": "Appr",
+  "entry": "./",
+  "options": {
+    "port": 3000,
+    "title": "Test3"
+  }
+}

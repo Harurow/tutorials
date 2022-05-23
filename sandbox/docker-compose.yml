@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  sandbox:
+    image: harurow/vno:current
+    container_name: sandbox
+    tty: true
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/sandbox
+    working_dir: /sandbox
+    environment:
+      - CHOKIDAR_USEPOLLING=true
